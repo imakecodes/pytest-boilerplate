@@ -131,6 +131,7 @@ requests==2.25.1
     #   docker
     #   pytest-hoverfly
     #   requests-mock
+    #   wiremock
 six==1.15.0
     # via
     #   -r requirements.txt
@@ -163,6 +164,8 @@ websocket-client==1.2.3
     # via
     #   -r requirements.txt
     #   docker
+wiremock==2.3.1
+    # via -r requirements.txt
 zipp==3.4.1
     # via
     #   -r requirements.txt
@@ -170,3 +173,4 @@ zipp==3.4.1
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
+# setuptools
