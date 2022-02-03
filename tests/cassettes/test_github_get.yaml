@@ -7,7 +7,7 @@ interactions:
       Accept-Encoding:
       - gzip, deflate
       Authorization:
-      - token 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
+      - token sometoken
       Connection:
       - keep-alive
       User-Agent:

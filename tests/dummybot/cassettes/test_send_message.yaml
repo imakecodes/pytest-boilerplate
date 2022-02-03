@@ -1,0 +1,86 @@
+interactions:
+- request:
+    body: '{"channel": "#dummybot", "text": "Hello, world!"}'
+    headers:
+      Authorization:
+      - Bearer sometoken
+      Connection:
+      - close
+      Content-Length:
+      - '49'
+      Content-Type:
+      - application/json;charset=utf-8
+      Host:
+      - www.slack.com
+      User-Agent:
+      - Python/3.8.10 slackclient/3.13.0 Linux/5.13.0-27-generic
+    method: POST
+    uri: https://www.slack.com/api/chat.postMessage
+  response:
+    body:
+      string: '{"ok":true,"channel":"C031RPZPMHP","ts":"1643840643.790599","message":{"bot_id":"B03232KLHG8","type":"message","text":"Hello,
+        world!","user":"U031ACPJ6F7","ts":"1643840643.790599","team":"T01UAFWP4TT","bot_profile":{"id":"B03232KLHG8","app_id":"A0320GQ70EL","name":"Dummy
+        Bot","icons":{"image_36":"https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png","image_48":"https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png","image_72":"https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"},"deleted":false,"updated":1643835188,"team_id":"T01UAFWP4TT"}}}'
+    headers:
+      access-control-allow-headers:
+      - slack-route, x-slack-version-ts, x-b3-traceid, x-b3-spanid, x-b3-parentspanid,
+        x-b3-sampled, x-b3-flags
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - x-slack-req-id, retry-after
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      connection:
+      - close
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Wed, 02 Feb 2022 22:24:03 GMT
+      expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      pragma:
+      - no-cache
+      referrer-policy:
+      - no-referrer
+      server:
+      - Apache
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      via:
+      - envoy-www-iad-ovr6, envoy-edge-gru-ewkl
+      x-accepted-oauth-scopes:
+      - chat:write
+      x-backend:
+      - main_normal main_bedrock_normal_with_overflow main_canary_with_overflow main_bedrock_canary_with_overflow
+        main_control_with_overflow main_bedrock_control_with_overflow
+      x-content-type-options:
+      - nosniff
+      x-edge-backend:
+      - envoy-www
+      x-envoy-upstream-service-time:
+      - '167'
+      x-oauth-scopes:
+      - app_mentions:read,bookmarks:read,bookmarks:write,calls:read,calls:write,channels:history,chat:write.customize,chat:write,channels:join,channels:manage,channels:read,conversations.connect:read,chat:write.public,commands,conversations.connect:manage,files:write,conversations.connect:write,dnd:read,groups:read,groups:history,emoji:read,files:read,groups:write,links:read,links:write,mpim:history,incoming-webhook,im:history,im:read,im:write,reactions:read,pins:write,reminders:read,users:write,mpim:read,mpim:write,pins:read,reactions:write,team.billing:read,remote_files:write,reminders:write,remote_files:read,usergroups:write,usergroups:read,remote_files:share,team:read,team.preferences:read,users.profile:read,users:read,users:read.email,workflow.steps:execute
+      x-powered-by:
+      - HHVM/4.128.0
+      x-server:
+      - slack-www-hhvm-main-iad-lx69
+      x-slack-backend:
+      - r
+      x-slack-edge-shared-secret-outcome:
+      - no-match
+      x-slack-req-id:
+      - 8ab749ef9eabe712b85d2e3acae1e52f
+      x-slack-shared-secret-outcome:
+      - no-match
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1
